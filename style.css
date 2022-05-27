@@ -1,0 +1,44 @@
+h1, h2, h3, h4{
+    font-family: 'Fraunces', serif;
+    text-align: center;
+}
+.text-div{
+
+    padding: 4rem 0;
+    
+}
+.text-div p{
+    
+     margin:0 2rem;
+            text-align:center;
+            font-size:1rem;
+            line-height:1.5rem;
+            color: rgb(66, 65, 65);
+}
+.header-container{
+position: relative;
+bottom: 200px;
+
+}
+
+.header{
+    position: relative;
+    top: 350px;
+    color: white;
+    text-transform: uppercase;
+}
+.arrow{
+    position: relative;
+    top: 400px;
+    text-align: center;
+}
+
+.navigation{
+    position: relative;
+    top:220px ;
+    
+}
+.navigation a{
+   color: white;
+    text-decoration: none;
+}
