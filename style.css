@@ -42,3 +42,9 @@ bottom: 200px;
    color: white;
     text-decoration: none;
 }
+.apple{
+    position: relative;
+    bottom: 180px;
+    text-align: center;
+    padding: 20px;
+}
