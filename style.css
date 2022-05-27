@@ -43,8 +43,73 @@ bottom: 200px;
     text-decoration: none;
 }
 .apple{
+    
     position: relative;
     bottom: 180px;
     text-align: center;
+    
+    padding: 15px 15px;
+    
+}
+.apple p{
+     margin:0 2rem;
+            text-align:center;
+            font-size:1rem;
+            line-height:1.5rem;
+            color: rgb(66, 65, 65);
+
+}
+.client{
+    font-size: 10px;
+}
+.client-image{
+   text-align: center;
+    
+}
+.client-image img{
+     width: 50px;
+    border-radius: 70px;
+}
+.paragraph p{
+margin:0 2rem;
+            text-align:center;
+            font-size:1rem;
+            line-height:1.5rem;
+            color: rgb(66, 65, 65);
+            
+}
+footer{
+    background-color: rgb(19, 107, 107);
+
+}
+.foot-links{
+    display: block;
+    text-align: center;
+    margin: 30px 30px;
+}
+.foot-links a{
     padding: 20px;
+    
+    text-decoration: none;
+} 
+.link-1{
+    color: rgb(48, 179, 179);
+}
+.link-1:hover{
+    color: rgb(48, 179, 179);
+}
+.link-2{
+    color: white;
+}
+.link-2:hover{
+    color: white;
+}
+.link-3{
+    color:rgb(48, 179, 179) ;
+}
+.link-3:hover{
+    color: rgb(48, 179, 179);
+}
+.sunny{
+    color: rgb(48, 179, 179);
 }
