@@ -42,12 +42,11 @@ bottom: 200px;
    color: white;
     text-decoration: none;
 }
+.photo{
+    
+}
 .apple{
-    
-    position: relative;
-    bottom: 180px;
     text-align: center;
-    
     padding: 15px 15px;
     
 }
