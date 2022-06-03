@@ -43,11 +43,17 @@ bottom: 200px;
     text-decoration: none;
 }
 .photo{
+  background-image: url(/images/desktop/image-photography.jpg); 
+  background-repeat: no-repeat; 
+ 
+  background-size: contain;
+}
+@media (min-width:600px) {
     
 }
 .apple{
     text-align: center;
-    padding: 15px 15px;
+    padding-top: 15px;
     
 }
 .apple p{
