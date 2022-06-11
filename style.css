@@ -1,4 +1,4 @@
-h1, h2, h3, h4{
+ h2, h3, h4{
     font-family: 'Fraunces', serif;
     text-align: center;
 }
@@ -15,55 +15,79 @@ h1, h2, h3, h4{
             line-height:1.5rem;
             color: rgb(66, 65, 65);
 }
-.header-container{
-position: relative;
-bottom: 200px;
+.header-background{
+    background-image: url(/images/desktop/image-header.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+height: 90vh;
 
 }
-
 .header{
-    position: relative;
-    top: 350px;
-    color: white;
+   padding-top: 1rem;
+   color: white;
     text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-size: 40px;
+}
+@media (max-width:900px) {
+    .header-background{
+   background-image: url(/images/mobile/image-header.jpg);
+
+height: 70vh; }
+.header{
+    margin-top: 150px;
+    font-size: 20px;
+   
+}
+.sugar{
+    box-sizing: ;
+}
 }
 .arrow{
-    position: relative;
-    top: 400px;
     text-align: center;
+    margin-top: 10px;
 }
 
-.navigation{
-    position: relative;
-    top:220px ;
-    
-}
 .navigation a{
-   color: white;
+
     text-decoration: none;
 }
-.photo{
+.photo-orange{
   background-image: url(/images/desktop/image-photography.jpg); 
-  background-repeat: no-repeat; 
- 
-  background-size: contain;
-}
-@media (min-width:600px) {
-    
-}
-.apple{
-    text-align: center;
-    padding-top: 15px;
-    
-}
-.apple p{
-     margin:0 2rem;
-            text-align:center;
-            font-size:1rem;
-            line-height:1.5rem;
-            color: rgb(66, 65, 65);
+  background-size: cover;
+
+background-repeat: no-repeat;
+background-position: bottom;
+
+height: 500px;
+
 
 }
+.photo-apple{
+    
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+
+background-repeat: no-repeat;
+background-position: bottom;
+
+height: 500px;
+ 
+}
+.apple{
+    
+   margin-top: 350px;
+  
+ 
+}
+.apple p{
+ margin-left: 50px;
+ margin-right: 50px;   
+    
+}
+
 .client{
     font-size: 10px;
 }
@@ -83,7 +107,7 @@ margin:0 2rem;
             color: rgb(66, 65, 65);
             
 }
-footer{
+div footer{
     background-color: rgb(19, 107, 107);
 
 }
